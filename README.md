@@ -1,6 +1,6 @@
 # SEO Tool Suite - Ghi chú Phiên bản
 
-# 🚀 SEO Tool v1.0.1 - Release Notes
+# 🚀 SEO Tool v1.0.1 – Release Notes
 
 ## 🔹 Tính năng mới
 - **Keyword Tools**
@@ -32,15 +32,17 @@
   - Cho phép bỏ qua đăng nhập để mở bản Free.
   - Chức năng hiện/ẩn mật khẩu với nút 👁/🙈.
   - Hỗ trợ nhấn phím **Enter** để đăng nhập nhanh.
+  - **Quay lại màn hình đăng nhập** từ bản Free qua menu hỗ trợ.
 
 ## 🔹 Cải tiến giao diện
 - Chuyển đổi hoàn toàn từ file `SEOToolPro.py` sang giao diện mới **ModernSEOApp**.
 - Dashboard dạng lưới với card cho từng công cụ, nút bấm có hiệu ứng Bounce.
 - Sidebar hiện đại với icon và highlight khi chọn.
-- Footer bổ sung menu hỗ trợ: Discord, kiểm tra cập nhật, ghi chú phiên bản.
+- Footer bổ sung menu hỗ trợ: Discord, kiểm tra cập nhật, ghi chú phiên bản, quay lại đăng nhập.
 - Nhãn và nút hiển thị **IN HOA** để đồng bộ giao diện.
 - Thêm hiệu ứng shadow, hover, gradient cho nút và card.
 - Cửa sổ đăng nhập được chỉnh kích thước để hiển thị đủ tiêu đề.
+- **Tray icon**: ẩn/hiện ứng dụng từ khay hệ thống.
 
 ## 🔹 Hiệu năng
 - Tối ưu tốc độ crawl dữ liệu với `aiohttp` và đa luồng.
@@ -56,7 +58,7 @@
 - Tự động kiểm tra và tải bản cập nhật mới, hiển thị progress bar với tốc độ tải và thời gian còn lại.
 - Tự động chạy file cài đặt sau khi tải xong.
 - Chế độ ẩn xuống khay hệ thống (system tray) để chạy ngầm.
-- Menu hỗ trợ với Discord, kiểm tra cập nhật, ghi chú phiên bản.
+- Menu hỗ trợ với Discord, kiểm tra cập nhật, ghi chú phiên bản, quay lại đăng nhập.
 
 ## 🔹 Known Issues
 - Một số website có cấu trúc phức tạp có thể gây lỗi khi crawl link.
@@ -67,4 +69,6 @@
 
 ## 📌 Thông tin
 - Phiên bản: `1.0.1 Pro`
-- Creator: Hà-SEOer
+- Creator: Hà-SEOer  
+- **Full Changelog**: [GitHub commits v1.0.1](https://github.com/jangnguyen1st/seo-tool-update/commits/v1.0.1)
+
