@@ -2,9 +2,17 @@
 chcp 65001 >nul
 REM Script tự động cấu hình, xử lý xung đột, commit và push lên GitHub
 
-echo [1/5] Đang cấu hình Git ban đầu...
-git remote add origin https://github.com/jangnguyen1st/seo-tool-update.git 2>nul
-git branch -M main
+REM Kiểm tra xem đã ở trong repo seo-tool-update chưa
+for /f "tokens=*" %%i in ('git rev-parse --show-toplevel 2^>nul') do set REPO=%%~nxi
+
+if /i "%REPO%"=="seo-tool-update" (
+    echo [1/5] Đang trong thư mục seo-tool-update, bỏ qua bước clone/remote...
+) else (
+    echo [1/5] Đang cấu hình Git ban đầu...
+    git init
+    git remote add origin https://github.com/jangnguyen1st/seo-tool-update.git 2>nul
+    git branch -M main
+)
 
 echo [2/5] Đang gom các file (git add)...
 git add . -f
