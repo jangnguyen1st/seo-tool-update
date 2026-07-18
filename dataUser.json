@@ -1,4 +1,14 @@
-{
-    "user": "admin",
-    "pass": "40ec78fa8fb2852c1df3c3e72afe7f0902fdf0db1474dbb337c3724f6e27ce4c"
-}
+[
+    {
+        "user": "admin",
+        "pass": "37bd45d638c2d11c49c641d2e9c4f49f406caf3ee282743e0c800aa1ed68e2ee"
+    },
+    {
+        "user": "admin",
+        "pass": "40ec78fa8fb2852c1df3c3e72afe7f0902fdf0db1474dbb337c3724f6e27ce4c"
+    },
+    {
+        "user": "admin",
+        "pass": "05c544c1afbd305106ebac756fc28ca4ee7588d42e20dfeab4c28154eaed4632"
+    }
+]
